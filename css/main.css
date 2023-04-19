@@ -1,0 +1,244 @@
+/****** Global Styles ******/
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #5E5D5E;
+}
+
+.content-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+    background: url(/Users/kellywinn/Desktop/WebDev/jubilee-austen/img/full-background.png), #f9efef;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1{
+    font-family: 'Lora', serif;
+    color: #7b7e54;
+    font-size: 30px;
+    float: left;
+    width: 300px;
+    padding: 65px 0 65px 25px;
+}
+
+header nav{
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0;
+}
+
+nav ul li {
+    display: inline-block;   
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #727172;
+    padding-left: 50px;
+}
+
+header h2{
+    clear: both;
+    width: 1000px;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #817f80;
+    padding: 20px 0px 20px 25px;  
+}
+
+/****** About Styles ******/
+#about .content-wrapper{
+    padding-top: 80px;
+    padding-bottom: 80px; 
+}
+
+#about h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p{
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float:left;
+    width: 500px;
+}
+
+/****** Skill Styles ******/
+
+#skills {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#skills .content-wrapper{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+#skills .skill-list{
+    float: left;
+    width:300px;
+    margin-left: 50px;
+    margin-right: 50px;    
+}
+
+#skills h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#skills h3{
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#skills p{
+    line-height: 40px;
+    text-align: left;
+    font-size: 20px;
+}
+
+/****** Contact Styles ******/
+
+#contact{
+    background-color: #f9e9e9;
+}
+
+#contact .content-wrapper{
+    padding-top:110px;
+    padding-bottom: 110px;
+}
+
+.contact-image{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 550px;
+    
+}
+#contact-img{
+    width: 550px;
+    height: 350px;
+    border: 10px solid white;
+    box-sizing: border-box;
+}
+
+.contact-info{
+    float: left;
+    width: 400px;
+    padding-left: 100px;
+}
+
+#contact h2{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight:400
+}
+
+#email-header{
+    margin-bottom: 5px;
+}
+
+#social-follow{
+    margin-bottom: 5px;
+}
+
+#envelope{
+    padding-right: 10px;
+}
+
+#contact a{
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #5E5D5E;
+
+}
+#contact ul{
+    margin-top:0;
+    padding-left:0px;
+}
+
+#contact ul li{
+    display: inline-block;
+}
+
+#contact ul img{
+    margin-right: 40px;
+}
+
+/****** Projects Page Styles ******/
+
+
+
+/****** Projects Page Header Styles ******/
+.projects-nav{
+    background-color: #f9e9e9;
+}
+/****** Projects Page Projects Styles ******/
+
+#projects{
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#projects .content-wrapper{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+#projects .my-projects{
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+}
+#projects img{
+    width: 300px;
+}
+
+#projects h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#projects h3{
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#projects p{
+    line-height: 40px;
+    text-align: left;
+    font-size: 20px;
+    width: 300px;
+    
+}
